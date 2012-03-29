@@ -17,9 +17,7 @@ public class Selection extends SortBase {
 		int minIndex = findMinimum(startIndex);
 		if(minIndex != startIndex) {
 			//swap
-			int temp = toSort[minIndex];
-			toSort[minIndex] = toSort[startIndex];
-			toSort[startIndex] = temp;
+			swap(minIndex, startIndex);
 		}
 		startIndex++;
 		if(startIndex < toSort.length) {
