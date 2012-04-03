@@ -14,11 +14,9 @@ public class Insertion extends SortBase {
 			int k = i - 1;
 			while(k >= 0 && toSort[k] > key) {
 				toSort[k + 1] = toSort[k];
-				System.out.print(toSort[k] + ":" + toSort[i] + ",");
 				k--;
 			}
 			toSort[k + 1] = key;
-			System.out.println("");
 		}
 	}
 

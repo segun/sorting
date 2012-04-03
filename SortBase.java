@@ -2,8 +2,8 @@ import java.util.Random;
 import java.util.Arrays;
 
 public abstract class SortBase {
-	//protected int[] toSort;
-	protected int[] toSort = {4,2,7,5,8,3,10,1,6,9};
+	protected int[] toSort;
+	//protected int[] toSort = {4,3,2,1};
 	protected final static int SORT_LENGTH = 10;
 
 	protected void swap(int i, int k) {
